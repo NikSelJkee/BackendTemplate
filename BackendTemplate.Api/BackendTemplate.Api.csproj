@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>e0264e9e-3519-4a87-afe4-1f467f329775</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\BackendTemplate.Application\BackendTemplate.Application.csproj" />
+    <ProjectReference Include="..\BackendTemplate.Infrastructure\BackendTemplate.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
